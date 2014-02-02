@@ -1,7 +1,7 @@
 module CucumberSigeConnectionHelpers
   require 'oci8'
 
-  def conection
+  def conection_db
     config_ped = "#{RAILS_ROOT}/config/config_ped.yml"
       puts "  config_ped => #{config_ped}"
 
